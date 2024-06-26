@@ -21,7 +21,7 @@ function Main()
         local Ax = gg.choice({
             "暗号化スクリプト",
             "終了"
-        }, nil, "みんなのスクリプト(更新日2024/06/09)")
+        }, nil, "みんなのスクリプト(更新日2024/06/27)")
 
         if Ax ~= nil then
             if Ax == 1 then

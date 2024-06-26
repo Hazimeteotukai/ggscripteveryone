@@ -1,0 +1,2 @@
+# ggscripteveryone
+みんなのスクリプト

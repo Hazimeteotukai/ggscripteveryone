@@ -25,7 +25,8 @@ function Main()
 
         if Ax ~= nil then
             if Ax == 1 then
-
+local api = gg.makeRequest("");
+if not pcall(load(api.content)) then
 end
 
             if Ax == 2 then

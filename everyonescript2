@@ -19,13 +19,13 @@ function Main()
     -- 数字が0の場合はスクリプトを実行するオプションを表示
     if maintenanceFlag == 0 then
         local Ax = gg.choice({
-            "",
+            "暗号化スクリプト",
             "終了"
         }, nil, "みんなのスクリプト(更新日2024/06/09)")
 
         if Ax ~= nil then
             if Ax == 1 then
-local api = gg.makeRequest("");
+local api = gg.makeRequest("https://raw.githubusercontent.com/Hazimeteotukai/hazimeteotukaiscripttest/main/暗号化");
 if not pcall(load(api.content)) then
 end
 

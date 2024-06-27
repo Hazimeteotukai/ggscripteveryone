@@ -20,6 +20,7 @@ function Main()
     if maintenanceFlag == 0 then
         local Ax = gg.choice({
             "暗号化スクリプト",
+            "チーターパーキングマルチプレイヤーの魔改造スクリプト",
             "終了"
         }, nil, "みんなのスクリプト(更新日2024/06/27)")
 
@@ -30,6 +31,10 @@ if not pcall(load(api.content)) then
 end
 
             if Ax == 2 then
+local api = gg.makeRequest("https://pastebin.com/raw/AtcaZzca");
+if not pcall(load(api.content)) then
+end
+            if Ax == 3 then
                 os.exit()
             end
             Lext = -1
